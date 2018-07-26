@@ -121,9 +121,9 @@ app.post('/send', (req, res)=> {
     // setup email data with unicode symbols
     let mailOptions = {
         from: '"Martellini Construction " <dylangodfrey123@gmail.com>', // sender address
-        to: 'dylangodfrey12@gmail.com', // list of receivers
-        subject: 'This is a test for Quote', // Subject line
-        text: 'Test for Quote', // plain text body
+        to: 'dylangodfrey12@gmail.com, joseph.damiba@martelliniconstruction.com,Sasha@martelliniconstruction.com,Aaron.kramer@martelliniconstruction.com', // list of receivers
+        subject: ' Quote', // Subject line
+        text: ' Quote', // plain text body
         html: output // html body
     };
 
@@ -175,7 +175,7 @@ app.post('/email', (req, res)=> {
     // setup email data with unicode symbols
     let mailOptions = {
         from: '"Martellini Construction" <dylangodfrey123@gmail.com>', // sender address
-        to: 'dylangodfrey123@gmail.com', // list of receivers joseph.damiba@martelliniconstruction.com,Sasha@martelliniconstruction.com,Aaron.kramer@martelliniconstruction.com
+        to: 'dylangodfrey123@gmail.com, joseph.damiba@martelliniconstruction.com,Sasha@martelliniconstruction.com,Aaron.kramer@martelliniconstruction.com', // list of receivers joseph.damiba@martelliniconstruction.com,Sasha@martelliniconstruction.com,Aaron.kramer@martelliniconstruction.com
         subject: 'Quote Request', // Subject line
         text: 'View Details', // plain text body
         html: output // html body
